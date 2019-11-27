@@ -49,7 +49,7 @@
         "lint"      : "eslint src",
         "build"     : "npm run clean && babel src --out-dir lib",
         "test"      : "npm run lint && babel-node test",
-        "prepublish": "npm test && npm run build"
+        "prepare": "npm test && npm run build"
     },
     "engines"         : {
         "node": ">= 4.0.0"
